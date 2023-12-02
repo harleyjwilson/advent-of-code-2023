@@ -1,0 +1,12 @@
+# MacOS specific files
+.DS_Store
+.vscode
+
+# Node.js specific files
+**/*/node_modules
+**/*/dist
+
+# Pytest specific files
+.pytest_cache/
+**/*/.pytest_cache
+**/*/__pycache__
